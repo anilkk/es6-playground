@@ -1,0 +1,25 @@
+{
+  "name": "es6-playground",
+  "version": "1.0.0",
+  "description": "es6 new stuff ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anilkk/es6-playground.git"
+  },
+  "keywords": [
+    "es6"
+  ],
+  "author": "Anil Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anilkk/es6-playground/issues"
+  },
+  "homepage": "https://github.com/anilkk/es6-playground#readme",
+  "devDependencies": {
+    "babel-cli": "^6.22.2"
+  }
+}
