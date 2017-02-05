@@ -6,7 +6,14 @@
 </head>
 
 <body>
-    <script src="app.js">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.9/browser.js"></script>
+    <script type="text/babel">
+        var x = 20; 
+        if (true) { // block scope using let 
+        let x = 10; 
+        console.log('value of x is ' + x); 
+        } 
+        console.log('value of x outside if block is ' + x);
     </script>
 </body>
 
